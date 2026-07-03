@@ -3,25 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-  Plus,
-  Pencil,
-  Trash2,
-  ChevronRight,
-  ChevronLeft,
-  Save,
-  X,
-  Upload,
-  Settings,
-  Image as ImageIcon,
-  MapPin,
-  Calendar,
-  Users,
-  AlertCircle,
-  MessageCircle,
-  Eye,
-  EyeOff
-} from 'lucide-react';
+import { Plus, Pencil, Trash2, ChevronRight, ChevronLeft, Save, X, Upload, Settings, Image as ImageIcon, MapPin, Calendar, Users, CircleAlert as AlertCircle, MessageCircle, Eye, EyeOff } from 'lucide-react';
 import {
   getTrips,
   getTripImages,
